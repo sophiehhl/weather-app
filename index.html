@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src ="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/52fa31ede0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" class="search-bar" placeholder="Enter Location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="error">
+            <img src="/404.jpg">
+            <h2> Invalid location!  <i class="fa-regular fa-face-sad-tear"></i></h2>
+        </div>
+        <div class="weather-box">
+            <h2 class="city"></h2>
+            <div class="flex">
+                <div class="div1"><img src="" class="icon"></div>
+                <div class="div2"><p class="temp"></p><p class="description"></p></div>
+                </div>
+            <div class="weather-details">
+            <div class="humidity"><i class="fa-solid fa-water"></i>                
+            <div class="humi">
+                <span></span>
+                Humidity: 
+                </div>
+            </div>
+            <div class="wind"><i class="fa-solid fa-wind"></i>
+            <div class="speed">
+                <span></span>
+                Wind:  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
